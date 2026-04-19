@@ -115,7 +115,7 @@
     /* BUTTON */
     .btn {
       width: 100%;
-      padding: 14px;
+      padding: 0;
       background: #22C55E;
       color: white;
       border: none;
@@ -125,6 +125,13 @@
 
     .btn:hover {
       background: #16A34A;
+    }
+
+    .btn a {
+      text-decoration: none;
+      display: block;
+      color: inherit;
+      padding: 14px;
     }
 
     /* REGISTER LINK */
@@ -195,9 +202,8 @@
         <input class="input" placeholder="Nomor HP / Email">
         <input class="input" type="password" placeholder="Password">
 
-        <button class="btn">Masuk</button>
+        <button class="btn"><a href="warga.html">Masuk</a></button>
 
-        
         <div class="register">
           Belum punya akun? <a href="register.html">Daftar</a>
         </div>
